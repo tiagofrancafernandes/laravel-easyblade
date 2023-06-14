@@ -1,7 +1,7 @@
 {
-    "name": "rezaamini-ir/laravel-easyblade",
+    "name": "tiagof2/laravel-easyblade",
     "license": "MIT",
-    "description": "Create a easier & readable Blade view with EasyBlade",
+    "description": "Create a easier & readable Blade view with EasyBlade [fork]",
     "authors": [
         {
             "name": "Reza Amini",
