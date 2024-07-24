@@ -156,8 +156,10 @@ Blade template engine was not created for pure PHP code, rather, it was created 
     // Return link tag : <link rel="stylesheet" href="/css/app.css">
 ```
 
+----
 
 ### Using this GIT repo on `composer.json`
+- `v0.6.x` is compatible with Laravel `v10.x`. It has not been tested in version 11.x but it should work well
 
 ```js
 // ..
