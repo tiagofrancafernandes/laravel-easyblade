@@ -155,3 +155,39 @@ Blade template engine was not created for pure PHP code, rather, it was created 
     @style('/css/app.css')
     // Return link tag : <link rel="stylesheet" href="/css/app.css">
 ```
+
+
+### Using this GIT repo on `composer.json`
+
+```js
+// ..
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "rezaamini-ir/laravel-easyblade",
+                "version": "dev-tiagof2/v0.6.x",
+                "source": {
+                    "type": "git",
+                    "reference": "tiagof2/v0.6.x", // Nome da branch a usar
+                    "url": "https://github.com/tiagofrancafernandes/laravel-easyblade"
+                }
+            }
+        }
+    ],
+    "require": {
+        // ...
+        "rezaamini-ir/laravel-easyblade": "dev-tiagof2/v0.6.x", // HERE
+        // ...
+    },
+    // ...
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        // ...
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    // ...
+```
